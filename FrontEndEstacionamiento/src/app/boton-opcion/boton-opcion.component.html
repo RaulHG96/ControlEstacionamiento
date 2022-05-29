@@ -1,0 +1,6 @@
+<div class="d-grid gap-2">
+	<a class="btn btn-lg btn-primary mb-3 {{ boton.classButton }}" routerLink="{{ boton.link }}" (click)="boton.hasEvent==='1'?goFunction(boton.function):''">
+		<i class="{{ boton.classIcon }}"></i><br>
+		{{ boton.textoHTML }}
+	</a>
+</div>

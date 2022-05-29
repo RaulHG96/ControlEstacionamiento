@@ -1,0 +1,13 @@
+<div class="container mt-5">
+	<div class="col-12">
+		<p class="h2 text-center">Registro de vehículo residente</p>
+		<form id="form-registro-residente" [formGroup]="formRegistroResidente" (submit)="onSubmit()">
+			<label for="numPlaca">Ingrese placa:</label>
+			<input type="text" class="form-control form-control-lg mb-3" placeholder="" id="numPlacas" maxlength="10" required formControlName="numPlacas" name="numPlaca" [(ngModel)]="inputplaca">
+		</form>
+	</div>
+	<div class="col-12 text-center">
+		<button class="btn btn-success btn-lg me-2" form="form-registro-residente">Aceptar</button>
+		<a class="btn btn-danger btn-lg" routerLink="/" routerLinkActive="active">Regresar</a>
+	</div>
+</div>
