@@ -13,3 +13,14 @@ Versiones utilizadas para el proyecto:
 | Laragon             | 5.0.0       |
 
 La base de datos ya está en las migraciones del Backend (Laravel).
+
+Se requiere correr el siguiente comando para el JWT del Api: 
+```php artisan jwt:secret```
+
+**VARIABLES DE ENTORNO ANGULAR**
+
+`urlAPI`:  Variable con la url de la api
+
+`email`: Correo del usuario para la conexión a la Api
+
+`password`: Contraseña del usuario para la conexión a la Api
